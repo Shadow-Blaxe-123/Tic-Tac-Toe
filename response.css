@@ -1,0 +1,42 @@
+.container {
+  flex-wrap: wrap;
+}
+/* #game {
+    height: 4rem;
+    width: 4rem;
+} */
+@media (max-width: 1000px) {
+  #game {
+    display: grid;
+    grid-template-rows: repeat(3, 20vw);
+    grid-template-columns: repeat(3, 20vw);
+  }
+  .item {
+    margin: 26px 20px;
+  }
+  nav {
+    height: 100px;
+    font-size: 50px;
+  }
+  #info p {
+    font-size: 54px;
+  }
+  h1 {
+    display: none;
+  }
+  button {
+    width: 160px;
+    margin-right: 13px;
+    margin-left: 10px;
+    font-size: 45px;
+  }
+  .btn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+  }
+  #music {
+    width: 204px;
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* navbar */
+nav {
+    color: white;
+    background-color: rgb(47, 5, 71);
+    height:62px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+nav ul {
+    list-style-type: none;
+}
+/* Game grid */
+#game {
+    display: grid;
+    grid-template-rows: repeat(3, 10vw);
+    grid-template-columns: repeat(3, 10vw);
+}
+.box {
+    border: 2px solid black;
+    font-size: 8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.box:hover {
+    background-color: rgb(221, 223, 255);
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.item {
+    margin: 60px 20px;
+
+}
+/* Utility Classes */
+.br-tp {border-top: 0;}
+.br-lft {border-left: 0;}
+.br-rgt {border-right: 0;}
+.br-btm {border-bottom: 0;}
+#info p,button{font-size: 22px; margin-top: 10px;}
+button {
+    padding: 6px 10px;
+    background-color: rgb(60, 172, 216); 
+    color: white;
+    width: 120px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+button:hover{ background-color: rgb(92, 130, 240); cursor: pointer;}
+img {
+    width: 0px;
+}
+.img {
+    display: flex;
+    flex-direction: column;
+}
